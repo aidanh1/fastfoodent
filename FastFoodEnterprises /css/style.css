@@ -1,0 +1,123 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: white;
+}
+h1 {
+	color: white;
+	text-align: center;
+	font-size: 50px;
+}
+body {
+	background-image: url("images/flame.png")
+}
+#heading {
+	background-color: red;
+	padding: 2px;
+	font-family: 'Noto Sans TC', sans-serif;
+}
+#p {
+	text-indent: 1em;
+	line-height: 1.8em;
+	font-size: 20px;
+	font-family: 'Noto Sans TC', sans-serif;
+}
+p {
+	font-size: 20px;
+	font-family: 'Noto Sans TC', sans-serif;
+}
+#link {
+	font-size: 35px;
+	text-align: center;
+	border: solid 1px white;
+	display: block;
+	background-color: firebrick;
+	margin: auto;
+}
+a:link {
+	color: white;
+	text-decoration: none;
+}
+a:visited {
+	color: white;
+	text-decoration: none;
+}
+.uniform {
+	color: black;
+	border: 1px solid black;
+	background-color: black;
+	margin: 1% auto;
+	padding: 30px 20px;
+	max-width: 800px;
+	width: 100%;
+	border: 2px solid orange
+}
+#sidebar {
+	padding: 40px 20px;
+	background-color: black;
+	padding-bottom: 69.75%;
+}
+#sidebarloc {
+	padding: 40px 20px;
+	background-color: black;
+	padding-bottom: 100%;
+}
+#click {
+	font-size: 35px;
+	color: white;
+	text-align: center;
+	border: solid 1px white;
+	background-color: red;
+	display: block;
+	margin: auto;
+}
+h3 {
+	font-family: 'Anton', sans-serif;
+	font-size: 20px;
+}
+.maps {
+	width: 100%;
+	max-width: 700px;
+	height: 600px;
+}
+#centered {
+	text-align: center;
+}
+#imgone {
+	width: 350px;
+	height: 254px;
+	display: block;
+	margin: auto;
+}
+#imgthree {
+	width: 350px;
+	height: 274px;
+	display: block;
+	margin: auto;
+}
+#imgfour {
+	width: 350px;
+	height: 206px;
+	display: block;
+	margin: auto;
+}
+@media (min-width: 1000px) {
+	#sidebar {
+		margin: 0 calc(50vw - 250px);
+		position: absolute;
+		width: 250px;
+		top: 9.75%;
+		right: 47%;
+	}
+	#sidebarloc {
+		margin: 0 calc(50vw - 250px);
+		position: absolute;
+		width: 250px;
+		top: 9.75%;
+		right: 47%;
+	}
+	.main {
+		margin: 10% 0 10% calc(50% - 265px);
+	}
+}
